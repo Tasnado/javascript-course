@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/69e691cb03.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani&display=swap" rel="stylesheet">
+    <!--     font-family: 'Press Start 2P', cursive;
+
+    font-family: 'Rajdhani', sans-serif; -->
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>Pokédex</h1>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="searchEvents">
+                
+                <form id="textSearch">
+                    <input type="text" placeholder="Name or id of Pokemon" id="pokemonFinder">
+                    <button type="submit" value="search"><i class="fa fa-search"></i></button>
+                </form>
+                
+                <button id="randomBtn">Random Pokemon</button>
+            </div>
+
+            <div class="pokemonContainer">
+                <i class="left"></i>
+
+                <div class="displayPokemon">
+                    <!-- dynamic content goes here -->
+                
+                </div>
+
+                <i class="right"></i>
+            </div>
+        </div>  
+    </main>
+
+    <footer>
+        <div class=wrapper>
+            <p>Created by Tasnia Nabila, 2021, at <a href="https://junocollege.com/" target="_blank">Juno College</a>. Data provided by <a href="https://pokeapi.co/" target="_blank">PokeApi</a> </p>
+        </div>
+    </footer>
+
+    
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+    <script src="./script.js"></script>
+</body>
+</html>

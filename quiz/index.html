@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Random Trivia!</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="end">
+            <p>Thank you for playing!</p>
+        </div>
+        
+        <h1>Welcome to the Random Trivia Game!</h1>
+        <h2 class="scoreKeep">Score: <span class="counter">0</span></h2>
+        
+        <div class="quizQuestions">
+            <h2>Question: <span class="question"></span></h2>
+            
+            <div class="answers">
+                <!-- adding answers -->
+            </div>
+        </div>
+
+        
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="restart">Restart</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
